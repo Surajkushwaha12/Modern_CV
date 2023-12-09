@@ -1,0 +1,25 @@
+@media screen and (max-width: 580px){
+    section.about .content{
+        grid-gap: 3rem;
+    }
+
+}
+@media screen and (max-width: 480px){
+    section.about .content{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    #hide{
+        display: none;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .counter_section{
+        font-size: 5px;
+    }
+  
+}
